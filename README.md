@@ -57,7 +57,7 @@ TASKS FOR TODAY
 3. Write a console.log statement that checks if highScore is equal to lives.
 4. An example if statement is provided on `script.js` #4. Uncomment and run the code in order to see what it does
 5. Write a conditional statement like number 4 that checks if lives is larger than 0. If lives is larger than 0, print "continue playing" to the console. Otherwise, print game over. Change the value of lives to see if the other portion works!
-6. You want to print out how many lives the user has everytime the "lose a life" button is clicked. Everytime the button is clicked, the amount of lives should decrease by 1. You want to print the number of lives if they still have more than 0 lives. Otherwise, you want to print out game over. 
+6. You want to print out how many lives the user has everytime the "lose a life" button is clicked. Everytime the button is clicked, the amount of lives should decrease by 1. You want to print the number of lives if they still have more than 0 lives. Otherwise, you want to print out game over.  
 ![](https://media.giphy.com/media/JKxR8cXk722wxV18e3/giphy.gif)
 7. We want to print out an emoji image when the mood button is clicked. If the mood button has been clicked less than 10 times, we want a happy emoji to print. Otherwise, print out the angry emoji for clicking too many times. The images are uploaded on the side.  
 ![](https://media.giphy.com/media/ehfQ6hOyssHl3PegsP/giphy.gif)
