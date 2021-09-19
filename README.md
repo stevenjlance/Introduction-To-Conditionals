@@ -15,6 +15,7 @@ Less Than | `<`|
 Equal To | `==`|
 Greater Than or Equal To | `>=`| 
 Less Than or Equal To | `<=`|
+Not Equal To | `!=`|
 
 For example, if we say `console.log(5 > 10)`, the console will print `false`. On the other hand if x has a value of 4 and we say `console.log(x == 4)`, the console will print `true` as the two values are the same.
 
@@ -52,7 +53,7 @@ In this case, "You are old enough to vote" will print because the first statemen
 
 TASKS FOR TODAY
 ---------------
-1. Uncomment the line of code below of the comparrison operator and see what prints to the console.
+1. Uncomment the line of code below the comparrison operator and see what prints to the console.
 2. Using #1 as an example, check if lives is less than the score. Print the result to the console.
 3. Write a console.log statement that checks if highScore is equal to lives.
 4. An example if statement is provided on `script.js` #4. Uncomment and run the code in order to see what it does
@@ -61,3 +62,11 @@ TASKS FOR TODAY
 ![](https://media.giphy.com/media/JKxR8cXk722wxV18e3/giphy.gif)
 7. We want to print out an emoji image when the mood button is clicked. If the mood button has been clicked less than 10 times, we want a happy emoji to print. Otherwise, print out the angry emoji for clicking too many times. The images are uploaded on the sidebar.  
 ![](https://media.giphy.com/media/ehfQ6hOyssHl3PegsP/giphy.gif)
+
+8. **BONUS STRETCH**: A form has been created to accept a username and password. For this stretch problem:
+  - Store a username and password in two new variables.
+  - Select for the submit button and attach and event listener for when the user clicks on the button.
+  - A form has been created to accept the username and password. Get the values from the form when the submit button is clicked. **HINT**: Google `.value` property for JavaScript forms.
+  - If the username matches the username you stored in the variable, print a message to the user. If the username does not match, return a seperate message telling them to try again.
+  - If the password matches the password you stored in the variable, print a message to the user. If the password does not match, return a seperate message telling them to try again.
+  - If both the username **AND** password matches, return a message telling them they have logged in. If the username and/or password doesn't match, return a message telling them to try again.

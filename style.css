@@ -113,3 +113,14 @@ h6 {
   color: var(--black);
   text-shadow: none;
 }
+
+label {
+  color: white;
+}
+
+.form-group {
+  margin: 0px;
+}
+#submit {
+  margin: 0px;
+}
